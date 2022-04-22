@@ -31,4 +31,5 @@
   border-radius: 2rem;
   background-color: var(--glass);
   overflow: hidden;
+  gap: 10px;
 }

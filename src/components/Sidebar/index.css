@@ -5,6 +5,18 @@
   padding-top: 4rem;
   transition: all 300ms ease;
 }
+.SideBar .bars{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 2rem;
+  padding: 10px;
+  border-radius: 10px;
+  transition: all 300ms ease;
+  background: #ffcfd1;
+  cursor: pointer;
+}
 .logo{
   display: flex;
   align-items: center;
@@ -42,6 +54,40 @@
 }
 .menuItem:hover{
   cursor: pointer;
+}
+@media screen and (min-width: 768px){
+  .SideBar .bars{
+    display: none;
+  }
+}
+@media screen and (max-width: 1200px){
+  .menuItem>span{
+    display: none;
+  }
+  .logo{
+    display: none;
+  }
+}
+@media screen and (max-width: 768px){
+  .SideBar{
+    position: fixed;
+    width: 40%;
+    padding-right: 1rem;
+    height: 100%;
+    border-radius: 2rem;
+    z-index: 999;
+    background: #ffcfd1;
+  }
+  .menuItem>span{
+    display: block;
+  }
+  .logo{
+    display: flex;
+  }
+  .menu .menuItem:last-child{
+    position: relative !important;
+    margin-top: 2rem;
+  }
 }
 .active{
   background-color: var(--activeItem);

@@ -1,11 +1,11 @@
 .Updates{
   width: 85%;
-  background: white;
+  padding: 1rem;
   display: flex;
   flex-direction: column;
   font-size: 13px;
   border-radius: 0.7rem;
-  padding: 1rem;
+  background: white;
   gap: 1rem;
 }
 .updateItem{

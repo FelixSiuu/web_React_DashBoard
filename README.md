@@ -1,3 +1,8 @@
+# dashboard
+Special thanks to the original for these open resources, click the link blow to see more
+https://github.com/ZainRk/Dashboard-starter
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

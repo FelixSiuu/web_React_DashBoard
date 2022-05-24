@@ -3,7 +3,7 @@ import MainDash from './components/MainDash'
 import SideBar from './components/Sidebar'
 import RightSide from './components/RightSide'
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <div className="AppGlass">
